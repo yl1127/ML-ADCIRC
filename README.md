@@ -58,6 +58,8 @@ Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 ## Summary of weekly meeting
 
 (2024.11.27) [Group Meeting Presentation](yl_Groupmeeting_1127.pptx)
+- Input File Descriptions: https://adcirc.org/home/documentation/users-manual-v53/input-file-descriptions/
+- Output File Descriptions: https://adcirc.org/home/documentation/users-manual-v53/output-file-descriptions/
 
 ## Github Pages
 
