@@ -11,6 +11,7 @@
     - [2024.12.18](#20241218)
     - [2024.11.27](#20241127)
   - [Github Pages](#github-pages)
+  - [License](#license)
 
 ## Introduction
 ML-ADCIRC is a project aimed at integrating machine learning techniques with the ADCIRC coastal ocean model to improve predictions and analyses. 
@@ -83,3 +84,7 @@ Coming soon.
 
 <!-- ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information. -->
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
