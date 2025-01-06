@@ -8,10 +8,14 @@
     - [Method 1: Docker](#method-1-docker)
     - [Method 2: SMS](#method-2-sms)
   - [Summary of weekly meeting](#summary-of-weekly-meeting)
+    - [2024.12.18](#20241218)
+    - [2024.11.27](#20241127)
   - [Github Pages](#github-pages)
 
 ## Introduction
 ML-ADCIRC is a project aimed at integrating machine learning techniques with the ADCIRC coastal ocean model to improve predictions and analyses. 
+
+![ADCIRC Demo](/document/ADCIRC-demo-1218.gif)
 
 More about ADCIRC: https://adcirc.org/
 
@@ -57,9 +61,21 @@ Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 
 ## Summary of weekly meeting
 
-(2024.11.27) [Group Meeting Presentation](yl_Groupmeeting_1127.pptx)
-- Input File Descriptions: https://adcirc.org/home/documentation/users-manual-v53/input-file-descriptions/
-- Output File Descriptions: https://adcirc.org/home/documentation/users-manual-v53/output-file-descriptions/
+### [2024.12.18](/document/yl_Groupmeeting_1218.pptx)
+- Method 2: SMS ADCIRC demo 
+- Output visualization
+- Literature review and GitHub
+
+
+### [2024.11.27](/document/yl_Groupmeeting_1127.pptx)
+- Method 1: Docker
+- ADCIRC documents
+  - [input file](https://adcirc.org/home/documentation/users-manual-v53/input-file-descriptions/
+  )
+  - [output file](https://adcirc.org/home/documentation/users-manual-v53/output-file-descriptions/
+  )
+- Literature review from Ruyi
+
 
 ## Github Pages
 
