@@ -68,7 +68,7 @@ Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
   - [Climate](/docs/climate_satellite.pptx)
   - [Sea level](/docs//sealevel_satellite.pptx)
 - HindCast
-- ==Flood forecasting==
+- Literature review: Flood forecasting
   - Blog: https://sites.research.google/gr/floodforecasting/
   - Paper: https://www.nature.com/articles/s41586-024-07145-1
   - Talk: https://youtu.be/xskF3ggRxog?si=nN6N_D8yKPRvB7_x
