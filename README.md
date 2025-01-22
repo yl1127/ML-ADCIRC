@@ -8,6 +8,7 @@
     - [Method 1: Docker](#method-1-docker)
     - [Method 2: SMS](#method-2-sms)
   - [Summary of weekly meeting](#summary-of-weekly-meeting)
+    - [2025.1.22](#2025122)
     - [2025.1.15](#2025115)
     - [2025.1.8](#202518)
     - [2024.12.18](#20241218)
@@ -63,6 +64,15 @@ SMS (Surface water Modeling System): https://www.aquaveo.com/software/sms-surfac
 Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 
 ## Summary of weekly meeting
+
+### [2025.1.22](/docs/yl_Groupmeeting_0122.pdf)
+- Literature review: Flood forecasting
+  - Blog: https://sites.research.google/gr/floodforecasting/
+  - Paper: https://www.nature.com/articles/s41586-024-07145-1
+  - Talk: https://youtu.be/xskF3ggRxog?si=nN6N_D8yKPRvB7_x
+
+- Towards a Science Exocortex 
+  -  https://arxiv.org/pdf/2406.17809
 
 ### 2025.1.15
 - Method 1: Visualization (Chengyi)
