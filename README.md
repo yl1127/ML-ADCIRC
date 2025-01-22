@@ -8,6 +8,7 @@
     - [Method 1: Docker](#method-1-docker)
     - [Method 2: SMS](#method-2-sms)
   - [Summary of weekly meeting](#summary-of-weekly-meeting)
+    - [2025.1.15](#2025115)
     - [2025.1.8](#202518)
     - [2024.12.18](#20241218)
     - [2024.11.27](#20241127)
@@ -63,11 +64,17 @@ Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 
 ## Summary of weekly meeting
 
+### 2025.1.15
+- Method 1: Visualization (Chengyi)
+  - Visualization of ADCIRC Model Data in Vector Formats
+  - https://github.com/ccht-ncsu/Kalpana
+
 ### [2025.1.8](/docs/yl_Groupmeeting_0108.pdf)
 - Satellite
   - [Climate](/docs/climate_satellite.pptx)
   - [Sea level](/docs//sealevel_satellite.pptx)
 - HindCast
+  - https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-3932
 - Literature review: Flood forecasting
   - Blog: https://sites.research.google/gr/floodforecasting/
   - Paper: https://www.nature.com/articles/s41586-024-07145-1
