@@ -4,10 +4,12 @@
 - [ML-ADCIRC](#ml-adcirc)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [To do:](#to-do)
   - [Usage](#usage)
     - [Method 1: Docker](#method-1-docker)
     - [Method 2: SMS](#method-2-sms)
   - [Summary of weekly meeting](#summary-of-weekly-meeting)
+    - [2025.1.31](#2025131)
     - [2025.1.22](#2025122)
     - [2025.1.15](#2025115)
     - [2025.1.8](#202518)
@@ -22,6 +24,12 @@ ML-ADCIRC is a project aimed at integrating machine learning techniques with the
 ![ADCIRC Demo](/docs/ADCIRC-demo-1218.gif)
 
 More about ADCIRC: https://adcirc.org/
+
+## To do:
+- Find the state-of-the-art costal Flood forecasting as benchmark
+- ~~Run the open source [code](https://github.com/google-research-datasets/global_streamflow_model_paper)(0204)~~
+  - Figure out how it works
+- Train a LSTM [model](https://github.com/neuralhydrology/neuralhydrology) using CORA [dataset](https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-ReAnalysis-CORA).
 
 ## Usage
 
@@ -64,6 +72,14 @@ SMS (Surface water Modeling System): https://www.aquaveo.com/software/sms-surfac
 Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 
 ## Summary of weekly meeting
+
+### [2025.1.31](/docs/yl_Groupmeeting_0131.pdf)
+- A Web-tool for Regional Sea Level Forecast for All Global Coastal Communities (Prof Zhu's email)
+- Dataset: CORA
+  - link: https://tidesandcurrents.noaa.gov/cora.html
+  - code: https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-ReAnalysis-CORA
+
+
 
 ### [2025.1.22](/docs/yl_Groupmeeting_0122.pdf)
 - Literature review: Flood forecasting
