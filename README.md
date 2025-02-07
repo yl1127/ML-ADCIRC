@@ -27,8 +27,35 @@ More about ADCIRC: https://adcirc.org/
 
 ## To do:
 - Find the state-of-the-art costal Flood forecasting as benchmark
+  - SOMAS
+    - Stony Brook Storm Surge Research Group https://stormy.msrc.sunysb.edu/
+  - NOAA
+    - Tide Predictions https://tidesandcurrents.noaa.gov/tide_predictions.html
+    - Water Levels https://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels
+    - 1-Minute Water Level Data https://tidesandcurrents.noaa.gov/1mindata.html
+    - Extreme Water Levels https://tidesandcurrents.noaa.gov/est/
+    - Coastal Inundation Dashboard https://tidesandcurrents.noaa.gov/inundationdb_info.html
+  - Physical models (Ocean Global Circulation Models OGCMs)
+    - NEMO ocean engine https://zenodo.org/records/3248739
+  - Data-driven models
+    - XiHe https://arxiv.org/abs/2402.02995
+    - GLONET https://arxiv.org/abs/2412.05454
+    - Statistics-free interpolation of ocean observations with deep spatio-temporal prior https://ceur-ws.org/Vol-3343/paper1.pdf
+    - Multimodal unsupervised spatiotemporal interpolation of satellite ocean altimetry maps https://www.scitepress.org/PublishedPapers/2023/116201/116201.pdf
+    - Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Accuracy and Resolution of Gridded Sea Surface Height Anomalies https://doi.org/10.1029/2022MS003589
+    - Pre-training and Fine-tuning Attention Based Encoder Decoder Improves Sea Surface Height Multi-variate Inpainting https://hal.sorbonne-universite.fr/hal-04475205
+    - ORCAst https://arxiv.org/abs/2501.12054
+  - Hybrid
+  
 - ~~Run the open source [code](https://github.com/google-research-datasets/global_streamflow_model_paper)(0204)~~
   - Figure out how it works
+- ~~Download the CORA dataset(0205)~~
+- More dataset
+  - Satellite
+    - DUACS DT2018 https://os.copernicus.org/articles/15/1207/2019/
+    - Surface Water and Ocean Topography (SWOT) https://swot.jpl.nasa.gov/
+    - Daily NeurOST L4 Sea Surface Height and Surface Geostrophic Currents https://podaac.jpl.nasa.gov/dataset/NEUROST_SSH-SST_L4_V2024.0
+    - Global Ocean Along Track L 3 Sea Surface Heights Nrt https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_L3_NRT_008_044/description
 - Train a LSTM [model](https://github.com/neuralhydrology/neuralhydrology) using CORA [dataset](https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-ReAnalysis-CORA).
 
 ## Usage
