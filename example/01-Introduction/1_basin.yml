@@ -13,11 +13,11 @@ test_basin_file: cora_list.txt
 
 # training, validation and test time periods (format = 'dd/mm/yyyy')
 train_start_date: "01/01/2022"
-train_end_date: "20/01/2022"
-validation_start_date: "21/01/2022"
-validation_end_date: "26/01/2022"
-test_start_date: "27/01/2022"
-test_end_date: "31/01/2022"
+train_end_date: "31/10/2022"
+validation_start_date: "01/11/2022"
+validation_end_date: "30/11/2022"
+test_start_date: "01/12/2022"
+test_end_date: "31/12/2022"
 
 # which GPU (id) to use [in format of cuda:0, cuda:1 etc, or cpu or None]
 device: 'cuda:0'
@@ -40,7 +40,7 @@ metrics:
 
 # base model type [lstm, ealstm, cudalstm, embcudalstm, mtslstm]
 # (has to match the if statement in modelzoo/__init__.py)
-model: lstm
+model: cudalstm
 
 # prediction head [regression]. Define the head specific parameters below
 head: regression
@@ -111,7 +111,7 @@ save_weights_every: 1
 dataset: generic
 
 # Path to data set root
-data_dir: /Users/ylpan/Documents/GitHub/ML-ADCIRC/data/
+data_dir: ../../data
 
 # Forcing product [daymet, maurer, maurer_extended, nldas, nldas_extended, nldas_hourly]
 # can be either a list of forcings or a single forcing product

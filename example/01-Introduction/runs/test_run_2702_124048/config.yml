@@ -1,0 +1,54 @@
+batch_size: 256
+clip_gradient_norm: 1
+clip_targets_to_zero:
+commit_hash:
+data_dir: ../../data
+dataset: generic
+device: cuda:0
+dynamic_inputs:
+- temperature
+- specific_humidity
+epochs: 10
+experiment_name: test_run
+forcings:
+head: regression
+hidden_size: 20
+img_log_dir: /home/yl0815/ML-ADCIRC/example/01-Introduction/runs/test_run_2702_124048/img_log
+initial_forget_bias: 3
+learning_rate:
+  0: 0.01
+  30: 0.005
+  40: 0.001
+log_interval: 5
+log_n_figures: 1
+log_tensorboard: true
+loss: MSE
+metrics:
+- NSE
+model: cudalstm
+num_workers: 8
+number_of_basins: 1
+optimizer: Adam
+output_activation: linear
+output_dropout: 0.4
+package_version: 1.11.0
+predict_last_n: 1
+run_dir: /home/yl0815/ML-ADCIRC/example/01-Introduction/runs/test_run_2702_124048
+save_weights_every: 1
+seed: 186446
+seq_length: 365
+target_variables:
+- WaterLevel
+test_basin_file: cora_list.txt
+test_end_date: 31/12/2022
+test_start_date: 01/12/2022
+train_basin_file: cora_list.txt
+train_dir: 
+  /home/yl0815/ML-ADCIRC/example/01-Introduction/runs/test_run_2702_124048/train_data
+train_end_date: 31/10/2022
+train_start_date: 01/01/2022
+validate_every: 3
+validate_n_random_basins: 1
+validation_basin_file: cora_list.txt
+validation_end_date: 30/11/2022
+validation_start_date: 01/11/2022
