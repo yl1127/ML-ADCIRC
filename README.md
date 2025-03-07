@@ -9,6 +9,7 @@
     - [Method 1: Docker](#method-1-docker)
     - [Method 2: SMS](#method-2-sms)
   - [Summary of weekly meeting](#summary-of-weekly-meeting)
+    - [2025.3.7](#202537)
     - [2025.1.31](#2025131)
     - [2025.1.22](#2025122)
     - [2025.1.15](#2025115)
@@ -29,7 +30,7 @@ More about ADCIRC: https://adcirc.org/
 - **Benchmark** Find the state-of-the-art costal Flood forecasting as benchmark
   - ~~SOMAS(0213)~~
     - ~~Stony Brook Storm Surge Research Group~~ https://stormy.msrc.sunysb.edu/
-  - NOAA (prediction)
+  <!-- - NOAA (prediction)
     - Tide Predictions https://tidesandcurrents.noaa.gov/tide_predictions.html
     - Water Levels https://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels
     - Coastal Inundation Dashboard https://tidesandcurrents.noaa.gov/inundationdb_info.html
@@ -43,24 +44,25 @@ More about ADCIRC: https://adcirc.org/
     - Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Accuracy and Resolution of Gridded Sea Surface Height Anomalies https://doi.org/10.1029/2022MS003589
     - Pre-training and Fine-tuning Attention Based Encoder Decoder Improves Sea Surface Height Multi-variate Inpainting https://hal.sorbonne-universite.fr/hal-04475205
     - ORCAst https://arxiv.org/abs/2501.12054
-  - Hybrid
+  - Hybrid -->
 
 - **Model**
   - ~~Run the open source [code](https://github.com/google-research-datasets/global_streamflow_model_paper)(0204)~~
     - ~~Figure out how it works(0212)~~
     - ~~Run the neuralhydrology models(0211)~~ https://github.com/neuralhydrology/neuralhydrology
-    - Train a LSTM [model](https://github.com/neuralhydrology/neuralhydrology) using CORA [dataset](https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-ReAnalysis-CORA).
+    ~~- Train a LSTM [model](https://github.com/neuralhydrology/neuralhydrology) using CORA [dataset](https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-ReAnalysis-CORA).~~
 
 
 - **Dataset** (Train&Eval)
-  - CORA (Target)
+  ~~- CORA (Target)~~ https://tidesandcurrents.noaa.gov/cora.html
     - ~~Download the CORA dataset(0205)~~
     - ~~Figure it out~~
-  - Satellite
+  - ERA5 (Other weather variables)
+  <!-- - Satellite
     - DUACS DT2018 https://os.copernicus.org/articles/15/1207/2019/
     - Surface Water and Ocean Topography (SWOT) https://swot.jpl.nasa.gov/
     - Daily NeurOST L4 Sea Surface Height and Surface Geostrophic Currents https://podaac.jpl.nasa.gov/dataset/NEUROST_SSH-SST_L4_V2024.0
-    - Global Ocean Along Track L 3 Sea Surface Heights Nrt https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_L3_NRT_008_044/description
+    - Global Ocean Along Track L 3 Sea Surface Heights Nrt https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_L3_NRT_008_044/description -->
 
 
 ## Usage
@@ -104,6 +106,11 @@ SMS (Surface water Modeling System): https://www.aquaveo.com/software/sms-surfac
 Tutorials: https://www.aquaveo.com/software/sms-learning-tutorials
 
 ## Summary of weekly meeting
+
+### [2025.3.7](/docs/yl_Groupmeeting_0307.pdf)
+- Recent progress
+- Plan
+- Challenges
 
 ### [2025.1.31](/docs/yl_Groupmeeting_0131.pdf)
 - A Web-tool for Regional Sea Level Forecast for All Global Coastal Communities (Prof Zhu's email)
